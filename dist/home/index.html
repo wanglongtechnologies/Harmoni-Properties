@@ -417,27 +417,22 @@
       </div>
     </footer>
 
-    <style>
-      .glide__slide {
-        height: auto;
-      }
-    </style>
-
     <script src="//unpkg.com/@glidejs/glide@3.7.1/dist/glide.min.js"></script>
     <script>
       let glideTestimonial = new Glide(".glide-testimonial", {
         type: "carousel",
         perView: 2,
         rewind: true,
-        peek: 20,
-      });
-
-      glideTestimonial.on(["mount.after", "resize"], function () {
-        if (window.screen.width < 1024) glideTestimonial.update({ perView: 1, peek: 20 });
-        else glideTestimonial.update({ perView: 2, peek: 50 });
-      });
-
-      glideTestimonial.mount();
+        peek: 50,
+        autoplay: 5000,
+        hoverpause: true,
+        breakpoints: {
+          1024: {
+            perView: 1,
+            peek: 25,
+          },
+        },
+      }).mount();
     </script>
 
     <script src="//unpkg.com/photoswipe@5.4.4/dist/umd/photoswipe.umd.min.js"></script>
