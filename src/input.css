@@ -27,6 +27,40 @@
   background-image: url("/assets/img/eve.png");
 }
 
+.bg-wl-home {
+  background-color: #ffffff;
+  background-image: url("/assets/img/element/website element_homepage banner.png");
+}
+
 [x-cloak] {
   display: none !important;
+}
+
+.pswp__custom-caption {
+  background: #4a4a4880;
+  font-size: 16px;
+  color: #fff;
+  width: calc(100% - 32px);
+  max-width: 400px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  position: absolute;
+  left: 50%;
+  bottom: 16px;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.pswp__custom-caption a {
+  color: #fff;
+  text-decoration: underline;
+  text-align: center;
+}
+.hidden-caption-content {
+  display: none;
+}
+
+button.pswp__button--test-button {
+  background: #136912 !important;
+  font-size: 20px;
+  color: #fff;
 }

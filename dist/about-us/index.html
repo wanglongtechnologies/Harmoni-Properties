@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="//rsms.me/inter/inter.css" />
     <link rel="stylesheet" href="//unpkg.com/@glidejs/glide@3.7.1/dist/css/glide.core.min.css" />
     <link rel="stylesheet" href="//unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="//unpkg.com/photoswipe@5.4.4/dist/photoswipe.css" />
 
     <link href="/assets/css/styles.css" rel="stylesheet" />
 
@@ -110,10 +111,17 @@
 
     <main class="bg-tiles mx-auto mt-32 flex flex-col gap-y-10">
       <section data-aos="fade-in" class="relative isolate px-6 py-14 lg:py-20">
+        <div class="absolute -top-80 left-0 -z-10 transform-gpu opacity-10 md:top-20 xl:top-3" aria-hidden="true">
+          <img src="/assets/img/floral.png" />
+        </div>
+        <div class="absolute right-0 -bottom-80 -z-10 transform-gpu opacity-10 md:bottom-20 xl:bottom-3" aria-hidden="true">
+          <img src="/assets/img/floral.png" class="rotate-180" />
+        </div>
+
         <div class="mx-auto max-w-2xl md:max-w-3xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl">
           <div class="mx-auto max-w-5xl text-center">
             <h1 class="text-2xl font-medium tracking-tight text-balance text-gray-600 sm:text-4xl">About Us</h1>
-            <h1 class="mt-2 font-serif text-6xl font-semibold tracking-tight text-balance text-gray-800 sm:text-7xl">Shaping Spaces, Inspiring Lives</h1>
+            <h1 class="mt-2 font-serif text-6xl font-semibold tracking-tight text-balance text-gray-800 capitalize sm:text-7xl">Shaping Spaces, Inspiring Lives</h1>
 
             <!-- <p class="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">Step into a world where luxury meets affordability, nestled in the heart of a vibrant community.</p> -->
             <div class="mt-10 flex items-center justify-center gap-x-6">
@@ -122,17 +130,21 @@
           </div>
           <div class="mt-16 flow-root sm:mt-24">
             <div class="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-gray-900/10 ring-inset xl:-m-4 xl:rounded-2xl xl:p-4">
-              <img id="hero-carousel" src="/assets/img/perspectives/exterior.jpg" alt="App screenshot" class="aspect-video rounded-md object-cover shadow-2xl ring-1 ring-gray-900/10 transition duration-700 ease-in-out" />
+              <img id="hero-carousel" src="/assets/img/element/website element_Tentang Kami banner.png" alt="App screenshot" class="aspect-video rounded-md object-cover shadow-2xl ring-1 ring-gray-900/10 transition duration-700 ease-in-out" />
             </div>
           </div>
         </div>
       </section>
 
-      <section data-aos="fade-in" class="bg-tear py-14 lg:py-20">
+      <section data-aos="fade-in" class="bg-tiles py-14 lg:py-20">
         <div class="mx-auto flex w-full max-w-2xl flex-col gap-y-14 px-6 py-10 md:max-w-3xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl">
-          <h2 class="mt-2 text-center font-serif text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-6xl">Our Story</h2>
+          <div>
+            <img src="//harmoni.properties/wp-content/uploads/2024/05/reserve-element.png" alt="" class="mx-auto w-1/3" />
+            <img src="//harmoni.properties/wp-content/uploads/2024/05/reserve-line-980x53.png" alt="" class="mb-8 w-full lg:mb-16" />
+          </div>
+
+          <h2 class="text-center font-serif text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-6xl">Our Story</h2>
           <div class="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20">
-            <!-- <img src="//harmoni.properties/wp-content/uploads/2024/07/Design-980x653.jpg" alt="" class="w-full rounded-xl shadow-xl ring-1 ring-gray-400/10" /> -->
             <div>
               <p class="text-center text-lg text-gray-600 lg:text-left">
                 Everything we do is about <span class="font-semibold">you</span> From designers who dream up exciting new concepts, to industrious brick layers who build, to shelter and protect your loved ones. <br /><br />
@@ -143,48 +155,47 @@
                 <br /><br />
                 We are proud to be partnered with some of the industry’s most seasoned consultants and contractors in the niche that they operate in.
               </p>
-              <!-- <div class="mt-8 text-center lg:text-left">
-                <a href="/home/" class="bg-harmoni-green inline-flex rounded-md px-3.5 py-2.5 text-base font-semibold text-white shadow-sm focus-visible:outline-offset-2">Explore our Homes</a>
-              </div> -->
             </div>
+          </div>
+
+          <img src="//harmoni.properties/wp-content/uploads/2024/05/reserve-line-980x53.png" alt="" class="my-4 w-full lg:my-8" />
+
+          <h2 class="text-center font-serif text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-6xl">Our Core Values</h2>
+          <div class="mx-auto grid grid-cols-1 gap-x-8 gap-y-16">
+            <div class="flex flex-col">
+              <p class="text-center font-serif text-4xl font-semibold text-gray-600 lg:text-left">Service Excellence</p>
+              <p class="mt-2 text-center text-lg text-gray-600 lg:text-left">Our commitment to service excellence is unwavering. We pride ourselves on providing superior quality services and products. This excellence is not just in what we deliver but how we deliver it – with professionalism, expertise, and a keen eye for detail.</p>
+            </div>
+
+            <div class="flex flex-col">
+              <p class="text-center font-serif text-4xl font-semibold text-gray-600 lg:text-left">Reliability</p>
+              <p class="mt-2 text-center text-lg text-gray-600 lg:text-left">Reliability is the cornerstone of our customer promise. We’ve built a reputation for being consistently dependable and trustworthy. Our clients know that they can count on us for stability and consistency, which is crucial in today’s ever-changing business landscape.</p>
+            </div>
+
+            <div class="flex flex-col">
+              <p class="text-center font-serif text-4xl font-semibold text-gray-600 lg:text-left">Innovative Solutions</p>
+              <p class="mt-2 text-center text-lg text-gray-600 lg:text-left">We don’t just solve problems; we innovate. Our team is dedicated to finding creative and effective solutions to the most challenging customer problems. Our approach to innovation ensures that we provide cutting–edge solutions that add real value to our clients.</p>
+            </div>
+
+            <div class="flex flex-col">
+              <p class="text-center font-serif text-4xl font-semibold text-gray-600 lg:text-left">Transparency</p>
+              <p class="mt-2 text-center text-lg text-gray-600 lg:text-left">We maintain clear, honest communication with all our stakeholders. This transparency builds trust and ensures that everyone we deal with, from clients to partners like you, is always informed and engaged in our mutual journey to success.</p>
+            </div>
+
+            <div class="flex flex-col">
+              <p class="text-center font-serif text-4xl font-semibold text-gray-600 lg:text-left">Responsiveness</p>
+              <p class="mt-2 text-center text-lg text-gray-600 lg:text-left">Our rapid and effective response to customer needs and feedback sets us apart. We understand the importance of being agile and attentive in our interactions, ensuring that our clients’ needs are promptly met with efficiency and care.</p>
+            </div>
+          </div>
+
+          <div>
+            <img src="//harmoni.properties/wp-content/uploads/2024/05/reserve-line-980x53.png" alt="" class="mt-8 w-full lg:mt-16" />
+            <img src="//harmoni.properties/wp-content/uploads/2024/05/reserve-element.png" alt="" class="mx-auto w-1/3 rotate-180" />
           </div>
         </div>
       </section>
 
-      <section data-aos="fade-in" class="bg-tiles py-14 lg:py-20">
-        <div class="mx-auto flex w-full max-w-2xl flex-col gap-y-14 px-6 py-10 md:max-w-3xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl">
-          <h2 class="mt-2 text-center font-serif text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-6xl">Our Core Values</h2>
-          <div class="mx-auto grid w-full grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20">
-            <!-- <img src="//harmoni.properties/wp-content/uploads/2024/07/Design-980x653.jpg" alt="" class="w-full rounded-xl shadow-xl ring-1 ring-gray-400/10" /> -->
-            <div>
-              <dl class="divide-y divide-gray-900/10">
-                <div x-data="{ isQuestionExpanded: false }" class="py-6 first:pt-0 last:pb-0">
-                  <dt>
-                    <button @click="isQuestionExpanded = !isQuestionExpanded" type="button" class="flex w-full cursor-pointer items-start justify-between text-left text-gray-900" aria-expanded="false">
-                      <span class="text-base font-semibold">What&#039;s the best thing about Switzerland?</span>
-                      <span class="ml-6 flex h-7 items-center">
-                        <svg x-cloak x-show="!isQuestionExpanded" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                        </svg>
-                        <svg x-cloak x-show="isQuestionExpanded" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
-                        </svg>
-                      </span>
-                    </button>
-                  </dt>
-                  <dd x-cloak x-show="isQuestionExpanded" class="mt-2 pr-12">
-                    <p class="text-base text-gray-600">I don&#039;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</p>
-                  </dd>
-                </div>
-
-                <!-- More questions... -->
-              </dl>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section data-aos="fade-in" class="bg-tear py-14 lg:py-20">
+      <!-- <section data-aos="fade-in" class="bg-tear z-10 py-14 lg:py-20">
         <div class="mx-auto flex w-full max-w-2xl flex-col gap-y-14 px-6 py-10 md:max-w-3xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl">
           <h2 class="mt-2 text-center font-serif text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-6xl">Our Location</h2>
           <div class="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start">
@@ -216,10 +227,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
     </main>
 
-    <footer class="bg-white">
+    <footer class="border-t border-black bg-white">
       <div class="mx-auto max-w-2xl px-6 py-14 md:max-w-3xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl">
         <div class="flex flex-col items-center gap-y-10 xl:flex-row xl:justify-between">
           <a href="/home/">
@@ -248,21 +259,9 @@
     </style>
 
     <script src="//unpkg.com/@glidejs/glide@3.7.1/dist/glide.min.js"></script>
-    <script>
-      let glideTestimonial = new Glide(".glide-testimonial", {
-        type: "carousel",
-        perView: 2,
-        rewind: true,
-        peek: 20,
-      });
 
-      glideTestimonial.on(["mount.after", "resize"], function () {
-        if (window.screen.width < 1024) glideTestimonial.update({ perView: 1, peek: 20 });
-        else glideTestimonial.update({ perView: 2, peek: 50 });
-      });
-
-      glideTestimonial.mount();
-    </script>
+    <script src="//unpkg.com/photoswipe@5.4.4/dist/umd/photoswipe.umd.min.js"></script>
+    <script src="//unpkg.com/photoswipe@5.4.4/dist/umd/photoswipe-lightbox.umd.min.js"></script>
 
     <script src="//unpkg.com/aos@next/dist/aos.js"></script>
     <script>
