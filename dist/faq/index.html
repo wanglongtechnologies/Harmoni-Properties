@@ -143,70 +143,131 @@
             <img src="//harmoni.properties/wp-content/uploads/2024/05/reserve-line-980x53.png" alt="" class="mb-8 w-full lg:mb-16" />
           </div>
 
-          <h2 class="mt-2 text-center font-serif text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-6xl">Our Quality Statement</h2>
-          <div class="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start">
-            <div class="order-2 lg:order-1 lg:pr-4">
-              <div class="flex flex-col gap-y-8 lg:max-w-lg">
-                <p class="text-center text-lg text-gray-600 lg:text-left">At Harmoni, we don’t just build homes—we create value for generations. Our commitment to <b>quality excellence</b> ensures every home is designed and built to the highest standards, reflecting the care and attention your family deserves. Through meticulous quality management, we aim to:</p>
-                <ul class="list-disc space-y-3 text-lg text-gray-600">
-                  <li>Deliver homes that are <b>functional, durable, and aesthetically pleasing</b></li>
-                  <li>Prioritize <b>safety and health</b> at every stage of development</li>
-                  <li>Strengthen our market reputation by exceeding expectations in <b>quality and customer satisfaction</b></li>
-                  <li>Foster employee <b>pride and engagement</b>, ensuring everyone contributes to our <b>vision of excellence</b></li>
-                </ul>
-                <p class="text-center text-lg text-gray-600 lg:text-left">We build homes you can <b>trust</b> - because your <b>peace of mind</b> is our <b>priority</b>.</p>
-              </div>
+          <h2 class="text-center font-serif text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Affording Your Dream Home</h2>
+          <dl class="mt-4 divide-y divide-gray-900/10">
+            <div x-data="{ isAnswerShown: false }" class="py-6 first:pt-0 last:pb-0">
+              <dt>
+                <button @click="isAnswerShown = !isAnswerShown" type="button" class="flex w-full cursor-pointer items-start justify-between text-left text-gray-900" aria-expanded="false">
+                  <span class="text-lg font-semibold">What is the starting price for Pulau Indah terrace homes?</span>
+                  <span class="ml-6 flex h-7 items-center">
+                    <svg x-cloak x-show="!isAnswerShown" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                    </svg>
+                    <svg x-cloak x-show="isAnswerShown" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                    </svg>
+                  </span>
+                </button>
+              </dt>
+              <dd x-cloak x-show="isAnswerShown" class="mt-2 pr-12">
+                <p class="text-lg text-gray-600">Discover affordable luxury. Our homes start at less than RM380,000, offering unparalleled value in Pulau Indah.</p>
+              </dd>
             </div>
-            <img src="//harmoni.properties/wp-content/uploads/2024/11/harmoni_quality_assurance_logo.png" alt="" class="order-1 mx-auto w-1/2 rounded-xl lg:order-2" />
-          </div>
+
+            <div x-data="{ isAnswerShown: false }" class="py-6 first:pt-0 last:pb-0">
+              <dt>
+                <button @click="isAnswerShown = !isAnswerShown" type="button" class="flex w-full cursor-pointer items-start justify-between text-left text-gray-900" aria-expanded="false">
+                  <span class="text-lg font-semibold">Are there flexible payment or financing options available?</span>
+                  <span class="ml-6 flex h-7 items-center">
+                    <svg x-cloak x-show="!isAnswerShown" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                    </svg>
+                    <svg x-cloak x-show="isAnswerShown" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                    </svg>
+                  </span>
+                </button>
+              </dt>
+              <dd x-cloak x-show="isAnswerShown" class="mt-2 pr-12">
+                <p class="text-lg text-gray-600">Yes, we offer a variety of financing solutions to fit your budget, making your dream home within reach. Please reach out to our helpful sales personnel for more information.</p>
+              </dd>
+            </div>
+
+            <div x-data="{ isAnswerShown: false }" class="py-6 first:pt-0 last:pb-0">
+              <dt>
+                <button @click="isAnswerShown = !isAnswerShown" type="button" class="flex w-full cursor-pointer items-start justify-between text-left text-gray-900" aria-expanded="false">
+                  <span class="text-lg font-semibold">Can you explain the potential return on investment for these properties?</span>
+                  <span class="ml-6 flex h-7 items-center">
+                    <svg x-cloak x-show="!isAnswerShown" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                    </svg>
+                    <svg x-cloak x-show="isAnswerShown" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                    </svg>
+                  </span>
+                </button>
+              </dt>
+              <dd x-cloak x-show="isAnswerShown" class="mt-2 pr-12">
+                <p class="text-lg text-gray-600">Investing in Pulau Indah is more than buying a home—it’s a smart financial decision. The area’s rapid development promises significant property value appreciation and rewarding returns.</p>
+              </dd>
+            </div>
+
+            <!-- More questions... -->
+          </dl>
 
           <img src="//harmoni.properties/wp-content/uploads/2024/05/reserve-line-980x53.png" alt="" class="my-4 w-full lg:my-8" />
 
-          <h2 class="mt-2 text-center font-serif text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-6xl">Our Quality Vision</h2>
-          <div class="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start">
-            <img src="/assets/img/element/website element_Reka bentuk image 1.png" alt="" class="w-full rounded-xl shadow-xl ring-1 ring-gray-400/10" />
-            <div class="lg:pl-4">
-              <div class="flex flex-col gap-y-8 lg:max-w-lg">
-                <p class="text-center text-lg text-gray-600 lg:text-left">We envision Harmoni as a benchmark for affordable luxury, wh ere every homeowner enjoys:</p>
-                <p class="text-center text-lg text-gray-600 lg:text-left">
-                  <span class="font-serif text-2xl font-bold">Certified Standards:</span><br />
-                  Products and services aligned with <b>international quality certifications</b>
-                  <br />
-                  <br />
-                  <span class="font-serif text-2xl font-bold">Elevated Experiences:</span><br />
-                  Homes designed to deliver lasting satisfaction and pride
-                  <br />
-                  <br />
-                  <span class="font-serif text-2xl font-bold">Unwavering Commitment:</span><br />
-                  Consistently high standards in workmanship, safety, and customer care
-                </p>
-              </div>
+          <h2 class="text-center font-serif text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Design Your Dream Space</h2>
+          <dl class="mt-4 divide-y divide-gray-900/10">
+            <div x-data="{ isAnswerShown: false }" class="py-6 first:pt-0 last:pb-0">
+              <dt>
+                <button @click="isAnswerShown = !isAnswerShown" type="button" class="flex w-full cursor-pointer items-start justify-between text-left text-gray-900" aria-expanded="false">
+                  <span class="text-lg font-semibold">What unique design features do these homes offer?</span>
+                  <span class="ml-6 flex h-7 items-center">
+                    <svg x-cloak x-show="!isAnswerShown" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                    </svg>
+                    <svg x-cloak x-show="isAnswerShown" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                    </svg>
+                  </span>
+                </button>
+              </dt>
+              <dd x-cloak x-show="isAnswerShown" class="mt-2 pr-12">
+                <p class="text-lg text-gray-600">Each home is a blend of elegance and practicality, featuring spacious layouts, modern aesthetics, and high-quality materials.</p>
+              </dd>
             </div>
-          </div>
 
-          <img src="//harmoni.properties/wp-content/uploads/2024/05/reserve-line-980x53.png" alt="" class="my-4 w-full lg:my-8" />
-
-          <h2 class="mt-2 text-center font-serif text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-6xl">Our Mission: Safety, Quality, and Responsibility</h2>
-          <div class="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start">
-            <div class="order-2 lg:order-1 lg:pr-4">
-              <div class="flex flex-col gap-y-8 lg:max-w-lg">
-                <p class="text-center text-lg text-gray-600 lg:text-left">We are dedicated to:</p>
-                <p class="text-center text-lg text-gray-600 lg:text-left">
-                  <span class="font-serif text-2xl font-bold">Continuous Improvement:</span><br />
-                  Enhancing quality, safety, and sustainability in our processes and products
-                  <br />
-                  <br />
-                  <span class="font-serif text-2xl font-bold">Eco-Conscious Development:</span><br />
-                  Reducing environmental impact through responsible practices
-                  <br />
-                  <br />
-                  <span class="font-serif text-2xl font-bold">Legal and Ethical Compliance:</span><br />
-                  Adhering to all applicable laws and standards to protect our customers and the community
-                </p>
-              </div>
+            <div x-data="{ isAnswerShown: false }" class="py-6 first:pt-0 last:pb-0">
+              <dt>
+                <button @click="isAnswerShown = !isAnswerShown" type="button" class="flex w-full cursor-pointer items-start justify-between text-left text-gray-900" aria-expanded="false">
+                  <span class="text-lg font-semibold">Can I customize my home?</span>
+                  <span class="ml-6 flex h-7 items-center">
+                    <svg x-cloak x-show="!isAnswerShown" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                    </svg>
+                    <svg x-cloak x-show="isAnswerShown" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                    </svg>
+                  </span>
+                </button>
+              </dt>
+              <dd x-cloak x-show="isAnswerShown" class="mt-2 pr-12">
+                <p class="text-lg text-gray-600">No, unfortunately we do not offer customization options for purchasers. However, purchasers may refer to our Sales Personnel for assistance regarding any future customization.</p>
+              </dd>
             </div>
-            <img src="/assets/img/element/website element_Reka bentuk image 1.png" alt="" class="order-1 w-full rounded-xl shadow-xl ring-1 ring-gray-400/10 lg:order-2" />
-          </div>
+
+            <div x-data="{ isAnswerShown: false }" class="py-6 first:pt-0 last:pb-0">
+              <dt>
+                <button @click="isAnswerShown = !isAnswerShown" type="button" class="flex w-full cursor-pointer items-start justify-between text-left text-gray-900" aria-expanded="false">
+                  <span class="text-lg font-semibold">What materials are used in constructing these homes?</span>
+                  <span class="ml-6 flex h-7 items-center">
+                    <svg x-cloak x-show="!isAnswerShown" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
+                    </svg>
+                    <svg x-cloak x-show="isAnswerShown" class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                    </svg>
+                  </span>
+                </button>
+              </dt>
+              <dd x-cloak x-show="isAnswerShown" class="mt-2 pr-12">
+                <p class="text-lg text-gray-600">We are committed to quality and sustainability, using high-grade materials that ensure durability, safety, and comfort.</p>
+              </dd>
+            </div>
+
+            <!-- More questions... -->
+          </dl>
 
           <div>
             <img src="//harmoni.properties/wp-content/uploads/2024/05/reserve-line-980x53.png" alt="" class="mt-8 w-full lg:mt-16" />
