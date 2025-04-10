@@ -15,6 +15,13 @@
 @theme {
   --color-harmoni-gray: #4a4a48;
   --color-harmoni-green: #347928;
+  --color-harmoni-light-brown: #ad936e;
+  --color-harmoni-dark-brown: #5e5646;
+}
+
+html,
+body {
+  color: #5e5646;
 }
 
 .bg-tiles {

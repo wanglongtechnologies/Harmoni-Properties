@@ -12,6 +12,6 @@
 <link rel="stylesheet" href="//unpkg.com/photoswipe@5.4.4/dist/photoswipe.css" />
 
 <link rel="icon" href="/assets/img/harmoni_logo.png?v=1" sizes="32x32">
-<link href="/assets/css/styles.css" rel="stylesheet" />
+<link href="/assets/css/styles.css?v=<?= md5(date("YmdHis")) ?>" rel="stylesheet" />
 
 <script src="//unpkg.com/alpinejs" defer></script>

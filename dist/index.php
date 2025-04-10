@@ -1,5 +1,3 @@
-<!-- @format -->
-
 <?php
 header("Location: /home/");
 exit();

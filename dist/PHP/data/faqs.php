@@ -23,7 +23,7 @@ $_FAQS = array(
     "questions" => array(
       array(
         "question" => array("What unique design features do these homes offer?", "Apakah ciri reka bentuk unik yang ditawarkan oleh rumah ini?"),
-        "answer" => array("Each home is a blend of elegance and practicality, featuring spacious layouts, modern aesthetics, and high-quality materials.", "Setiap rumah adalah gabungan keanggunan dan praktikaliti, menampilkan susun atur yang luas, estetik moden, dan bahan berkualiti tinggi."),
+        "answer" => array("Each home is a blend of elegance and practicality, featuring spacious layouts, modern aesthetics, and high-quality materials.", "Setiap rumah dilengkapi dengan ruang tamu yang mempunyai siling berketinggian dua kali ganda, menampilkan reka bentuk yang luas dan estetik moden, serta menggunakan bahan binaan berkualiti tinggi."),
       ),
       array(
         "question" => array("Can I customize my home?", "Bolehkah saya menyesuaikan rumah saya mengikut kehendak saya sendiri?"),
@@ -136,8 +136,8 @@ $_FAQS = array(
     "category" => array("Start Your Journey Today", "Mulakan Langkah Anda Hari Ini"),
     "questions" => array(
       array(
-        "question" => array("How can I schedule a property viewing?", "Bagaimana saya boleh menjadualkan lawatan ke hartanah?"),
-        "answer" => array("Contact us to arrange a visit and experience the charm of Pulau Indah firsthand by calling 011 8888 2068.", "Hubungi kami untuk mengatur lawatan dan alami sendiri keunikan Pulau Indah dengan menghubungi 011-8888 2068."),
+        "question" => array("How can I schedule a property viewing?", "Bagaimana saya boleh menjadualkan lawatan ke lokasi projek pembinaan?"),
+        "answer" => array("Contact us to arrange a visit and experience the charm of Pulau Indah firsthand by calling 011 8888 2068.", "Sila hubungi kami di 011-8888 2063 untuk menjadualkan lawatan dan alami sendiri keunikan Pulau Indah."),
       ),
       array(
         "question" => array("Are there any special offers for early buyers?", "Adakah terdapat tawaran istimewa untuk pembeli terawal?"),

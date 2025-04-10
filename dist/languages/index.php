@@ -1,7 +1,4 @@
-<!-- @format -->
-
 <?php require_once($_SERVER['DOCUMENT_ROOT'] . '/PHP/locale/Locale.php'); ?>
-
 <?php
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
   if (isset($_POST["lang"]) && $_POST["lang"] != "" && in_array($_POST["lang"], ["ms-MY", "en-MY"])) {
@@ -16,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <html lang="<?= explode("-", $_SESSION["lang"])[0] ?>">
 
 <head>
-  <?php $_DOCUMENT_TITLE = "Sustainability"; ?>
+  <?php $_DOCUMENT_TITLE = "Languages"; ?>
   <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/PHP/components/Head.php'); ?>
 </head>
 
@@ -55,13 +52,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
               </defs>
             </svg>
             <div class="flex-auto">
-              <p class="text-base font-semibold text-gray-900"><?= __("Malay") ?></p>
-              <p class="mt-1 text-base text-gray-500">ms-MY</p>
+              <p class="text-base font-semibold text-harmoni-dark-brown"><?= __("Malay") ?></p>
+              <p class="mt-1 text-base text-harmoni-dark-brown">ms-MY</p>
             </div>
           </div>
           <form method="POST">
             <input type="hidden" name="lang" value="ms-MY">
-            <button type="submit" class="cursor-pointer rounded-full bg-white px-2.5 py-1 text-base font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"><?= __("Choose") ?></button>
+            <button type="submit" class="cursor-pointer rounded-full bg-white px-2.5 py-1 text-base font-semibold text-harmoni-dark-brown shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"><?= __("Choose") ?></button>
           </form>
         </li>
 
@@ -76,13 +73,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             </svg>
 
             <div class="flex-auto">
-              <p class="text-base font-semibold text-gray-900"><?= __("English") ?></p>
-              <p class="mt-1 text-base text-gray-500">en-MY</p>
+              <p class="text-base font-semibold text-harmoni-dark-brown"><?= __("English") ?></p>
+              <p class="mt-1 text-base text-harmoni-dark-brown">en-MY</p>
             </div>
           </div>
           <form method="POST">
             <input type="hidden" name="lang" value="en-MY">
-            <button type="submit" class="cursor-pointer rounded-full bg-white px-2.5 py-1 text-base font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"><?= __("Choose") ?></button>
+            <button type="submit" class="cursor-pointer rounded-full bg-white px-2.5 py-1 text-base font-semibold text-harmoni-dark-brown shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"><?= __("Choose") ?></button>
           </form>
         </li>
       </ul>
