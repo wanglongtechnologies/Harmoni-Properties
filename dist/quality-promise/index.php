@@ -383,6 +383,7 @@
   </main>
 
   <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/PHP/components/Footer.php'); ?>
+  <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/PHP/components/FAB.php'); ?>
 
   <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/PHP/components/Scripts.php'); ?>
   <script>
