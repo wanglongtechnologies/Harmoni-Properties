@@ -162,20 +162,20 @@
           <h2 class="text-center font-serif text-5xl font-semibold tracking-tight text-pretty text-harmoni-dark-brown sm:text-6xl"><?= __("Features You'll Love") ?></h2>
         </div>
 
-        <div class="grid w-full grid-cols-1 gap-2 lg:grid-cols-2 2xl:grid-cols-3">
-          <div class="flex flex-col items-center justify-center gap-2 rounded-lg bg-harmoni-light-brown px-4 py-14 shadow-md lg:py-10">
+        <div class="grid w-full grid-cols-2 gap-4">
+          <div class="flex flex-col col-span-2 md:col-span-1 items-center justify-center gap-2 rounded-lg bg-harmoni-light-brown px-4 py-14 shadow-md lg:py-10">
             <img src="/assets/img/new element/20250326 - icons and pics/20250326 - icons and pics_Design & Features - Water Booster Pump.png" class="size-32" />
             <h3 class="text-center font-serif text-3xl font-semibold text-white"><?= __("Water Booster Pump") ?></h3>
           </div>
-          <div class="flex flex-col items-center justify-center gap-2 rounded-lg bg-harmoni-light-brown px-4 py-14 shadow-md lg:py-10">
+          <div class="flex flex-col col-span-2 md:col-span-1 items-center justify-center gap-2 rounded-lg bg-harmoni-light-brown px-4 py-14 shadow-md lg:py-10">
             <img src="/assets/img/new element/20250326 - icons and pics/20250326 - icons and pics_Design & Features -  Paint Finished Flush Door.png" class="size-32" />
             <h3 class="text-center font-serif text-3xl font-semibold text-white"><?= __("Paint Finished Flush Door") ?></h3>
           </div>
-          <div class="flex flex-col items-center justify-center gap-2 rounded-lg bg-harmoni-light-brown px-4 py-14 shadow-md lg:py-10">
+          <div class="flex flex-col col-span-2 md:col-span-1 items-center justify-center gap-2 rounded-lg bg-harmoni-light-brown px-4 py-14 shadow-md lg:py-10">
             <img src="/assets/img/new element/20250326 - icons and pics/20250326 - icons and pics_Design & Features - Quality Sanitary Wares & Fittings.png" class="size-32" />
             <h3 class="text-center font-serif text-3xl font-semibold text-white"><?= __("Quality Sanitary Wares & Fittings") ?></h3>
           </div>
-          <div class="flex flex-col items-center justify-center gap-2 rounded-lg bg-harmoni-light-brown px-4 py-14 shadow-md lg:py-10">
+          <div class="flex flex-col col-span-2 md:col-span-1 items-center justify-center gap-2 rounded-lg bg-harmoni-light-brown px-4 py-14 shadow-md lg:py-10">
             <img src="/assets/img/new element/20250326 - icons and pics/20250326 - icons and pics_Design & Features - Quality Locksets.png" class="size-32" />
             <h3 class="text-center font-serif text-3xl font-semibold text-white"><?= __("Quality Locksets") ?></h3>
           </div>

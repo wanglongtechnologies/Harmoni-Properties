@@ -62,7 +62,7 @@
           <div class="order-2 lg:order-1 lg:pr-4">
             <div class="flex flex-col gap-y-8 lg:max-w-lg">
               <p class="text-center text-lg text-harmoni-dark-brown lg:text-left"><?= __("At Harmoni, we don’t just build homes—we create value for generations. Our commitment to <b>quality excellence</b> ensures every home is designed and built to the highest standards, reflecting the care and attention your family deserves. Through meticulous quality management, we aim to:") ?></p>
-              <ul class="list-disc space-y-3 text-lg text-harmoni-dark-brown">
+              <ul class="list-disc list-inside space-y-3 text-lg text-harmoni-dark-brown">
                 <li><?= __("Deliver homes that are <b>functional, durable, and aesthetically pleasing</b>") ?></li>
                 <li><?= __("Prioritize <b>safety and health</b> at every stage of development") ?></li>
                 <li><?= __("Strengthen our market reputation by exceeding expectations in <b>quality and customer satisfaction</b>") ?></li>
@@ -78,7 +78,7 @@
 
         <h2 class="mt-2 text-center font-serif text-5xl font-semibold tracking-tight text-pretty text-harmoni-dark-brown sm:text-6xl"><?= __("Our Quality Vision") ?></h2>
         <div class="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start">
-          <img src="/assets/img/element/website element_Reka bentuk image 1.png" alt="" class="w-full rounded-xl shadow-xl ring-1 ring-gray-400/10" />
+          <img src="/assets/img/Website Picture/Quallity promise (visi kami).png" alt="" class="w-full rounded-xl shadow-xl ring-1 ring-gray-400/10" />
           <div class="lg:pl-4">
             <div class="flex flex-col gap-y-8 lg:max-w-lg">
               <p class="text-center text-lg text-harmoni-dark-brown lg:text-left"><?= __("We envision Harmoni as a benchmark for affordable luxury, where every homeowner enjoys:") ?></p>
@@ -125,7 +125,7 @@
               </p>
             </div>
           </div>
-          <img src="/assets/img/element/website element_Reka bentuk image 1.png" alt="" class="order-1 w-full rounded-xl shadow-xl ring-1 ring-gray-400/10 lg:order-2" />
+          <img src="/assets/img/Website Picture/Quallity promise (misi kami).png" alt="" class="order-1 w-full rounded-xl shadow-xl ring-1 ring-gray-400/10 lg:order-2" />
         </div>
 
         <div>
@@ -156,7 +156,7 @@
                     <span class="absolute inset-0"></span>
                     <?= __("Interior Cleanliness") ?>
                   </h3>
-                  <ul class="mt-3 list-disc space-y-2 text-lg font-light text-white drop-shadow-lg">
+                  <ul class="mt-3 list-disc list-inside space-y-2 text-lg font-light text-white drop-shadow-lg">
                     <li><?= __("All elements are in good condition.") ?></li>
                     <li><?= __("Elements include walls, floors, ceillings, doors & windows, bathroom etc.") ?></li>
                   </ul>
@@ -174,7 +174,7 @@
                     <span class="absolute inset-0"></span>
                     <?= __("Exterior Standards") ?>
                   </h3>
-                  <ul class="mt-3 list-disc space-y-2 text-lg font-light text-white drop-shadow-lg">
+                  <ul class="mt-3 list-disc list-inside space-y-2 text-lg font-light text-white drop-shadow-lg">
                     <li><?= __("All elements are in good condition.") ?></li>
                     <li><?= __("Elements include mail box, meter compartment, car porch, landscape etc.") ?></li>
                   </ul>
@@ -192,7 +192,7 @@
                     <span class="absolute inset-0"></span>
                     <?= __("Structural Integrity") ?>
                   </h3>
-                  <ul class="mt-3 list-disc space-y-2 text-lg font-light text-white drop-shadow-lg">
+                  <ul class="mt-3 list-disc list-inside space-y-2 text-lg font-light text-white drop-shadow-lg">
                     <li><?= __("The property is free from major damages.") ?></li>
                     <li><?= __("Eg: Major leaking, ceilling collapse etc.") ?></li>
                   </ul>
@@ -210,7 +210,7 @@
                     <span class="absolute inset-0"></span>
                     <?= __("Exterior Functionality") ?>
                   </h3>
-                  <ul class="mt-3 list-disc space-y-2 text-lg font-light text-white drop-shadow-lg">
+                  <ul class="mt-3 list-disc list-inside space-y-2 text-lg font-light text-white drop-shadow-lg">
                     <li><?= __("All exterior fittings and installations are well installed and in functional condition.") ?></li>
                     <li><?= __("Fittings house numberings, pumps, gates etc.") ?></li>
                   </ul>
@@ -228,7 +228,7 @@
                     <span class="absolute inset-0"></span>
                     <?= __("Interior Functionality") ?>
                   </h3>
-                  <ul class="mt-3 list-disc space-y-2 text-lg font-light text-white drop-shadow-lg">
+                  <ul class="mt-3 list-disc list-inside space-y-2 text-lg font-light text-white drop-shadow-lg">
                     <li><?= __("All interior fittings and installations are well installed and in functional condition.") ?></li>
                     <li><?= __("Fittings include sanitary fittings, electrical installations. windows & doors, etc.") ?></li>
                   </ul>
@@ -246,7 +246,7 @@
                     <span class="absolute inset-0"></span>
                     <?= __("Interior Excellence") ?>
                   </h3>
-                  <ul class="mt-3 list-disc space-y-2 text-lg font-light text-white drop-shadow-lg">
+                  <ul class="mt-3 list-disc list-inside space-y-2 text-lg font-light text-white drop-shadow-lg">
                     <li><b class="font-medium"><?= __("Superior Finishing:") ?></b> <br /><?= __("Every detail, from walls to ceilings, is inspected to ensure a flawless finish.") ?></li>
                     <li>
                       <b class="font-medium"><?= __("Functional Design:") ?></b><br />
@@ -272,7 +272,7 @@
                     <span class="absolute inset-0"></span>
                     <?= __("Exterior Standards") ?>
                   </h3>
-                  <ul class="mt-3 list-disc space-y-2 text-lg font-light text-white drop-shadow-lg">
+                  <ul class="mt-3 list-disc list-inside space-y-2 text-lg font-light text-white drop-shadow-lg">
                     <li>
                       <b class="font-medium"><?= __("Elevated Aesthetic Appeal:") ?></b><br />
                       <?= __("Landscaped surroundings and well-maintained common areas reflect the care we put into every development.") ?><br />
@@ -298,7 +298,7 @@
                     <span class="absolute inset-0"></span>
                     <?= __("Structural Integrity") ?>
                   </h3>
-                  <ul class="mt-3 list-disc space-y-2 text-lg font-light text-white drop-shadow-lg">
+                  <ul class="mt-3 list-disc list-inside space-y-2 text-lg font-light text-white drop-shadow-lg">
                     <li>
                       <b class="font-medium"><?= __("Built to Last:") ?></b><br />
                       <?= __("High-quality materials and craftsmanship ensure durability for years to come.") ?><br />

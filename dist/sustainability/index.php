@@ -77,7 +77,7 @@
                     <span class="absolute inset-0"></span>
                     <?= __("Sustainable<br />Design") ?>
                   </h3>
-                  <ul class="mt-3 list-disc space-y-2 text-lg font-light text-white drop-shadow-lg">
+                  <ul class="mt-3 list-disc list-inside space-y-2 text-lg font-light text-white drop-shadow-lg">
                     <li><?= __("Susun atur yang dirancang dengan teliti bagi memaksimumkan pencahayaan semula jadi dan pengudaraan, seterusnya mengurangkan penggunaan tenaga.") ?></li>
                     <li><?= __("Reka bentuk yang mengutamakan keseimbangan antara keselesaan, fungsi, dan kelestarian alam sekitar.") ?></li>
                   </ul>
@@ -95,7 +95,7 @@
                     <span class="absolute inset-0"></span>
                     <?= __("Community<br />Well-Being") ?>
                   </h3>
-                  <ul class="mt-3 list-disc space-y-2 text-lg font-light text-white drop-shadow-lg">
+                  <ul class="mt-3 list-disc list-inside space-y-2 text-lg font-light text-white drop-shadow-lg">
                     <li><?= __("Taman dan kawasan rekreasi yang selamat serta mesra keluarga untuk menggalakkan gaya hidup sihat.") ?></li>
                     <li><?= __("Pembangunan yang bersepadu dengan infrastruktur setempat bagi meningkatkan kemudahan dan aksesibiliti.") ?></li>
                     <li><?= __("Memastikan setiap kediaman dibina mengikut standard keselamatan dan kualiti tertinggi.") ?></li>
@@ -114,7 +114,7 @@
                     <span class="absolute inset-0"></span>
                     <?= __("Transparent<br />Governance") ?>
                   </h3>
-                  <ul class="mt-3 list-disc space-y-2 text-lg font-light text-white drop-shadow-lg">
+                  <ul class="mt-3 list-disc list-inside space-y-2 text-lg font-light text-white drop-shadow-lg">
                     <li><?= __("Membina kepercayaan melalui keadilan dan integriti.") ?></li>
                     <li><?= __("Proses tender yang jelas dan adil bagi memastikan ketelusan dan akauntabiliti.") ?></li>
                     <li><?= __("Menyokong Perusahaan Kecil dan Sederhana (PKS) tempatan untuk merangsang pertumbuhan ekonomi.") ?></li>
@@ -134,7 +134,7 @@
                     <span class="absolute inset-0"></span>
                     <?= __("Environmental<br />Stewardship") ?>
                   </h3>
-                  <ul class="mt-3 list-disc space-y-2 text-lg font-light text-white drop-shadow-lg">
+                  <ul class="mt-3 list-disc list-inside space-y-2 text-lg font-light text-white drop-shadow-lg">
                     <li><?= __("Prihatin terhadap alam semula jadi, memelihara sumber secara berhemat.") ?></li>
                     <li><?= __("Mengekalkan koridor hijau dan mengintegrasikan landskap yang menjimatkan air.") ?></li>
                     <li><?= __("Mengurangkan sisa pembinaan melalui amalan pengurusan yang bertanggungjawab.") ?></li>
@@ -154,7 +154,7 @@
                     <span class="absolute inset-0"></span>
                     <?= __("Responsible<br />Construction Materials") ?>
                   </h3>
-                  <ul class="mt-3 list-disc space-y-2 text-lg font-light text-white drop-shadow-lg">
+                  <ul class="mt-3 list-disc list-inside space-y-2 text-lg font-light text-white drop-shadow-lg">
                     <li><?= __("Pilihan bijak untuk masa depan yang lebih hijau.") ?></li>
                     <li><?= __("Menggunakan bahan rendah karbon yang diperoleh secara tempatan bagi mengurangkan kesan terhadap alam sekitar.") ?></li>
                     <li><?= __("Memilih pembekal bertauliah untuk memastikan amalan lestari dan ketahanan bahan.") ?></li>

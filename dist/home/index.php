@@ -120,7 +120,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
               </div>
             </div>
           </div>
-          <img src="//harmoni.properties/wp-content/uploads/2024/07/Design-980x653.jpg" alt="" class="order-1 w-full rounded-xl shadow-xl ring-1 ring-gray-400/10 lg:order-2" />
+          <img src="/assets/img/Website Picture/Homepage (Kami Memahami Cabaran Mencari Kediaman Idaman Anda).png" alt="" class="order-1 w-full rounded-xl shadow-xl ring-1 ring-gray-400/10 lg:order-2" />
         </div>
       </div>
     </section>
