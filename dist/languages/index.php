@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <body>
   <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/PHP/components/Navbar.php'); ?>
 
-  <main class="bg-tiles mx-auto mt-32 flex flex-col gap-y-10">
+  <main class="bg-tiles mx-auto mt-32 flex flex-col">
     <section data-aos="fade-in" class="relative isolate px-6 py-14 lg:py-20">
       <ul role="list" class="divide-y divide-gray-100 max-w-lg mx-auto">
         <li class="flex items-center justify-between gap-x-6 py-5">

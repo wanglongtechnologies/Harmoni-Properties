@@ -11,7 +11,7 @@
 <body>
   <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/PHP/components/Navbar.php'); ?>
 
-  <main class="bg-tiles mx-auto mt-32 flex flex-col gap-y-10">
+  <main class="bg-tiles mx-auto mt-32 flex flex-col">
     <section data-aos="fade-in" class="relative isolate px-6 py-14 lg:py-20">
       <div class="mx-auto max-w-2xl md:max-w-3xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl">
         <div class="mx-auto max-w-5xl text-center">

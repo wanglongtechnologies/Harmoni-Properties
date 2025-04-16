@@ -51,7 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   <?php } ?>
   <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/PHP/components/Navbar.php'); ?>
 
-  <main class="bg-tiles mx-auto mt-32 flex flex-col gap-y-10">
+  <main class="bg-tiles mx-auto mt-32 flex flex-col ">
     <!-- <section data-aos="fade-in" class="relative isolate px-6 py-14 lg:py-20">
       <div class="absolute -top-80 left-0 -z-10 opacity-10 md:top-20 xl:top-3" aria-hidden="true">
         <img src="/assets/img/floral.png" />
@@ -78,7 +78,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       </div>
     </section> -->
 
-    <section class="relative isolate overflow-hidden pt-14 -mt-32 -mb-10">
+    <section class="relative isolate overflow-hidden pt-14 -mt-32">
       <img src="/assets/img/perspectives/exterior.jpg" alt="" class="absolute inset-0 -z-10 size-full object-cover brightness-75">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
@@ -115,7 +115,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
               <div class="mt-8 text-center lg:text-left">
                 <!-- <a href="#our-homes" class="bg-harmoni-green inline-flex rounded-md px-3.5 py-2.5 text-base font-semibold text-white shadow-sm focus-visible:outline-offset-2"><?= __("Explore our Homes") ?></a> -->
                 <a href="#our-homes">
-                  <img src="/assets/img/new element/redesign web-04.png" class="w-full h-auto max-w-84" />
+                  <img src="/assets/img/new element/redesign web-04.png" class="w-full h-auto max-w-84 mx-auto lg:mx-0" />
                 </a>
               </div>
             </div>
@@ -274,7 +274,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     </section>
 
     <section data-aos="fade-in" class="py-14 lg:py-20">
-      <div class="mx-auto flex w-full max-w-2xl flex-col gap-y-14 px-6 py-10 md:max-w-3xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl">
+      <div class="mx-auto flex w-full max-w-2xl flex-col gap-y-5 px-6 py-10 md:max-w-3xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl">
         <h2 class="mt-2 text-center font-serif text-5xl font-semibold tracking-tight text-pretty text-harmoni-dark-brown sm:text-6xl"><?= __("What Our Customers Say") ?></h2>
 
         <div class="glide-testimonial mt-10">
